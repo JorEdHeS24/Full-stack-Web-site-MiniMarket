@@ -18,7 +18,11 @@
             </div>
             <h2 class="auth-title">Crear Cuenta</h2>
             <p class="auth-subtitle">Únete a nuestra plataforma</p>
-            <form id="registerForm" class="auth-form">
+            <form id="registerForm" class="auth-form"  action="http://127.0.0.1:5501/register.html" method="POST">
+                <div class="form-group">
+                    <label for="username" class="form-label">Nombre de Usuario</label>
+                    <input type="text" id="username" class="form-input" required>
+                </div>                
                 <div class="form-group">
                     <label for="email" class="form-label">Email</label>
                     <input type="email" id="email" class="form-input" required>

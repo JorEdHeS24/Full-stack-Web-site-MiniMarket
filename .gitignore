@@ -1,0 +1,8 @@
+git rm --cached .venv
+git rm --cached .gitignore
+git rm --cached ARQUITECTURA.md
+git rm --cached firebase-config.js
+git rm --cached CHECKLIST_FUNCIONALIDADES.md
+git rm --cached GUIA_INICIO_RAPIDO.md
+git rm --cached RESUMEN_REFACTORIZACION.md
+
